@@ -16,7 +16,7 @@ const documents = [
     category: "declarations",
     description: "The historic radio announcement of Bangladesh's independence by Sheikh Mujibur Rahman.",
     source: "Bangladesh Radio",
-    image: "https://source.unsplash.com/featured/?document,historic"
+    image: "https://i.ibb.co.com/mCqk63rQ/happy-bangladesh-independence-day-on-26-march-vector-49654592.jpg"
   },
   {
     id: "instrument-surrender",
@@ -25,7 +25,7 @@ const documents = [
     category: "treaties",
     description: "The document marking the surrender of Pakistani forces and the end of the Liberation War.",
     source: "Military Archives",
-    image: "https://source.unsplash.com/featured/?document,surrender"
+    image: "https://i.ibb.co.com/5hxSMfnw/images.jpg"
   },
   {
     id: "six-point-movement",
@@ -34,7 +34,7 @@ const documents = [
     category: "political",
     description: "The six-point program that became the foundation for Bangladesh's independence movement.",
     source: "Political Archives",
-    image: "https://source.unsplash.com/featured/?document,political"
+    image: "https://i.ibb.co.com/fdPbb8yP/liberation-war-collected.jpg"
   },
   {
     id: "7th-march-speech",
@@ -43,7 +43,7 @@ const documents = [
     category: "speeches",
     description: "Transcript of Sheikh Mujibur Rahman's historic speech at Race Course Field, Dhaka.",
     source: "Bangladesh Archives",
-    image: "https://source.unsplash.com/featured/?document,speech"
+    image: "https://i.ibb.co.com/whKdW25d/dims-apnews.jpg"
   },
   {
     id: "united-nations-genocide",
@@ -52,7 +52,7 @@ const documents = [
     category: "reports",
     description: "United Nations documentation regarding the humanitarian crisis during the Liberation War.",
     source: "United Nations Archives",
-    image: "https://source.unsplash.com/featured/?document,report"
+    image: "https://i.ibb.co.com/HDb5BR20/Genocide-by-Pakistan-Army-in-Bangladesh.jpg"
   },
   {
     id: "mujibnagar-govt",
@@ -61,7 +61,7 @@ const documents = [
     category: "political",
     description: "Documents detailing the formation of the first government of Bangladesh during the war.",
     source: "Government Archives",
-    image: "https://source.unsplash.com/featured/?document,government"
+    image: "https://i.ibb.co.com/XrzP31FB/gettyimages-1750505620-612x612.jpg"
   }
 ];
 

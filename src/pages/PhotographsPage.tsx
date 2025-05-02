@@ -17,7 +17,7 @@ const photographs = [
     description: "Sheikh Mujibur Rahman addressing a crowd of millions at Race Course Field in Dhaka.",
     photographer: "Unknown",
     location: "Dhaka, East Pakistan (now Bangladesh)",
-    image: "https://source.unsplash.com/featured/?rally,crowd"
+    image: "https://i.ibb.co.com/RTchX4ck/libaration-war-1.jpg"
   },
   {
     id: "refugee-camps",
@@ -27,7 +27,7 @@ const photographs = [
     description: "Bangladeshi refugees seeking shelter in camps along the Indian border during the war.",
     photographer: "International Red Cross",
     location: "West Bengal, India",
-    image: "https://source.unsplash.com/featured/?refugee,camp"
+    image: "https://i.ibb.co.com/ccG0cjVc/events-bangladesh-war-1971-A71-PYR.jpg"
   },
   {
     id: "freedom-fighters",
@@ -37,7 +37,7 @@ const photographs = [
     description: "Young Bangladeshi freedom fighters receiving military training in preparation for combat.",
     photographer: "War Correspondent",
     location: "Training Camp, Undisclosed",
-    image: "https://source.unsplash.com/featured/?military,training"
+    image: "https://i.ibb.co.com/PsDVGvmd/War-Of-Liberation-Training.jpg"
   },
   {
     id: "victory-celebration",
@@ -47,7 +47,7 @@ const photographs = [
     description: "People celebrating in the streets of Dhaka after the Pakistani surrender and Bangladesh's victory.",
     photographer: "Rashid Talukder",
     location: "Dhaka, Bangladesh",
-    image: "https://source.unsplash.com/featured/?celebration,victory"
+    image: "https://i.ibb.co.com/HDtWcZLf/gettyimages-1853381997-612x612.jpg"
   },
   {
     id: "war-destruction",
@@ -57,7 +57,7 @@ const photographs = [
     description: "Buildings destroyed by Pakistani air force bombings in a village outside Dhaka.",
     photographer: "International Press",
     location: "Rural Bangladesh",
-    image: "https://source.unsplash.com/featured/?destruction,war"
+    image: "https://i.ibb.co.com/mF0cw7j7/1971war-Collage.jpg"
   },
   {
     id: "independence-day",
@@ -67,7 +67,7 @@ const photographs = [
     description: "The first raising of the Bangladesh flag in officially independent Bangladesh.",
     photographer: "Government Photographer",
     location: "Dhaka, Bangladesh",
-    image: "https://source.unsplash.com/featured/?flag,independence"
+    image: "https://i.ibb.co.com/kszj3h1B/people-pay-tribute-liberation-war-260nw-2603626069.webp"
   },
   {
     id: "pakistani-surrender",
@@ -77,7 +77,7 @@ const photographs = [
     description: "The historic moment when Pakistani forces surrendered to the joint forces of Bangladesh and India.",
     photographer: "Military Photographer",
     location: "Dhaka, Bangladesh",
-    image: "https://source.unsplash.com/featured/?surrender,military"
+    image: "https://i.ibb.co.com/5hxSMfnw/images.jpg"
   },
   {
     id: "displaced-children",
@@ -87,7 +87,7 @@ const photographs = [
     description: "Children separated from their families during the conflict receiving aid from humanitarian workers.",
     photographer: "UNICEF",
     location: "Refugee Camp, India-Bangladesh Border",
-    image: "https://source.unsplash.com/featured/?children,aid"
+    image: "https://i.ibb.co.com/6V4RCv5/207668.jpg"
   }
 ];
 

@@ -5,12 +5,22 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Book, Headphones, Image } from "lucide-react";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { Autoplay, EffectFade } from 'swiper/modules';
 
 const HomePage = () => {
+  const images = [
+    'https://source.unsplash.com/featured/?bangladesh,liberation',
+    'https://source.unsplash.com/featured/?bangladesh,flag',
+    'https://images.app.goo.gl/NAw9tHT9uQUgJRke7',
+    'https://source.unsplash.com/featured/?bangladesh,history',
+    'https://i.ibb.co.com/RTchX4ck/libaration-war-1.jp'
+  ];
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-bangladesh-dark text-white">
+      {/* <section className="relative bg-bangladesh-dark text-white">
         <div 
           className="absolute inset-0 bg-black opacity-50"
           style={{ 
@@ -38,7 +48,63 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <section className="relative text-white h-[600px] overflow-hidden">
+      {/* Swiper background slider */}
+      <div className="absolute inset-0">
+        <Swiper
+          modules={[Autoplay, EffectFade]}
+          effect="fade"
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: false,
+          }}
+          speed={1500}
+          loop={true}
+          className="h-full w-full"
+        >
+          {images.map((image, index) => (
+            <SwiperSlide key={index} className="h-full w-full">
+              <div
+                className="absolute inset-0 bg-black opacity-50"
+                style={{
+                  backgroundImage: `url('${image}')`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundBlendMode: "overlay",
+                  height: "100%",
+                  width: "100%",
+                }}
+              ></div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+
+      <div className="container mx-auto px-4 py-24 relative z-10 h-full flex items-center">
+        <div className="max-w-3xl">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-bold mb-6">
+            Preserving the Legacy of Bangladesh's Liberation War
+          </h1>
+          <p className="text-lg md:text-xl mb-8 text-gray-200">
+            An extensive digital archive of documents, interviews, and photographs documenting Bangladesh's struggle for
+            independence in 1971.
+          </p>
+          <div className="flex flex-wrap gap-4">
+            <Button className="bg-bangladesh-green hover:bg-bangladesh-green/90" asChild>
+              <Link to="/documents">Explore Archive</Link>
+            </Button>
+            <Button
+              variant="outline"
+              className="text-bangladesh-green border-white hover:bg-white hover:text-bangladesh-dark"
+              asChild
+            >
+              <Link to="/contact">Contribute</Link>
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
 
       {/* Introduction Section */}
       <section className="bg-bangladesh-light py-16">
@@ -228,7 +294,7 @@ const HomePage = () => {
             <p className="text-lg mb-8">
               Do you have documents, photographs, or stories related to the Liberation War? Help us preserve Bangladesh's history by contributing to our archive.
             </p>
-            <Button asChild variant="outline" className="border-white text-white hover:bg-white hover:text-bangladesh-green">
+            <Button asChild variant="outline" className="border-white text-bangladesh-green hover:bg-white hover:text-bangladesh-green">
               <Link to="/contact">Contact Us</Link>
             </Button>
           </div>
