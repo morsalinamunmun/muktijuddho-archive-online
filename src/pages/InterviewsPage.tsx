@@ -17,7 +17,7 @@ const interviews = [
     category: "military",
     description: "Recounting the military strategy and challenges during the nine-month conflict.",
     duration: "45 minutes",
-    image: "https://source.unsplash.com/featured/?soldier,general"
+    image: "https://i.ibb.co.com/Bv8Mn65/images.jpg"
   },
   {
     id: "jharna-dhara",
@@ -27,7 +27,7 @@ const interviews = [
     category: "healthcare",
     description: "Experiences providing medical care to freedom fighters and civilians during the war.",
     duration: "32 minutes",
-    image: "https://source.unsplash.com/featured/?nurse,healthcare"
+    image: "https://i.ibb.co.com/GQxrggKb/jharna.jpg"
   },
   {
     id: "tajuddin-ahmad",
@@ -37,7 +37,7 @@ const interviews = [
     category: "political",
     description: "Insights into forming the government-in-exile and diplomatic efforts during the war.",
     duration: "58 minutes",
-    image: "https://source.unsplash.com/featured/?politician,leader"
+    image: "https://i.ibb.co.com/SGfZSYg/images.jpg"
   },
   {
     id: "kamal-hossain",
@@ -47,7 +47,7 @@ const interviews = [
     category: "political",
     description: "Discussing the development of Bangladesh's constitution following independence.",
     duration: "41 minutes",
-    image: "https://source.unsplash.com/featured/?lawyer,constitution"
+    image: "https://i.ibb.co.com/rKV7CLLB/images.jpg"
   },
   {
     id: "ferdousi-priyabhashini",
@@ -57,7 +57,7 @@ const interviews = [
     category: "civilian",
     description: "A harrowing account of survival and experiences as a woman during the liberation war.",
     duration: "37 minutes",
-    image: "https://source.unsplash.com/featured/?woman,artist"
+    image: "https://i.ibb.co.com/8LBjs7bD/Ferdousi-Priyabhashini-1.jpg"
   },
   {
     id: "rashid-haider",
@@ -67,7 +67,7 @@ const interviews = [
     category: "media",
     description: "Recording the war through the eyes of a journalist, documenting atrocities and victories.",
     duration: "29 minutes",
-    image: "https://source.unsplash.com/featured/?journalist,writer"
+    image: "https://i.ibb.co.com/5gDKbJvV/rashid-haider-131020-01.jpg"
   }
 ];
 
